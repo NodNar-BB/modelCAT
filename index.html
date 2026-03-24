@@ -328,9 +328,9 @@ function buildCard(item, imgSrc) {
   popup.appendChild(nameEl);
 
   const fields = [
-    { label: 'ID',       key: 'id' },
-    { label: 'POSITION', key: 'position' },
-    { label: 'DESC',     key: 'description' },
+    { label: 'Q_id',       key: 'id' },
+    { label: 'location', key: 'position' },
+    { label: 'model_name',     key: 'description' },
   ];
   fields.forEach(({ label: lbl, key }) => {
     if (!item[key]) return;

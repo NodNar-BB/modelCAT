@@ -311,7 +311,7 @@ function buildCard(item, imgSrc) {
 
   const label = document.createElement('div');
   label.className = 'card-label';
-  label.textContent = item.id ? `#${item.id}` : '—';
+  label.textContent = item.q_id ? `#${item.q_id}` : '—';
 
   const badge = document.createElement('div');
   badge.className = 'pin-badge';
@@ -323,14 +323,18 @@ function buildCard(item, imgSrc) {
 
   const nameEl = document.createElement('div');
   nameEl.className = 'popup-name';
-  nameEl.textContent = item.name || '(no name)';
+  nameEl.textContent = item.model_name || '(no name)';
 
   popup.appendChild(nameEl);
 
   const fields = [
-    { label: 'Q_id',       key: 'id' },
-    { label: 'location', key: 'position' },
-    { label: 'model_name',     key: 'description' },
+    { label: 'REF ID',    key: 'ref_id' },
+    { label: 'MODEL',     key: 'model_name' },
+    { label: 'MFR',       key: 'manufacturer' },
+    { label: 'LOCATION',  key: 'location' },
+    { label: 'W COUNT',   key: 'w_count' },
+    { label: 'Q COUNT',   key: 'q_count' },
+    { label: 'TOTAL',     key: 'total_count' },
   ];
   fields.forEach(({ label: lbl, key }) => {
     if (!item[key]) return;
@@ -403,7 +407,7 @@ async function init() {
 
   // Build cards — resolve images in parallel then insert in order
   const resolved = await Promise.all(
-    items.map(item => findImage(item.id))
+    items.map(item => findImage(item.q_id))
   );
 
   items.forEach((item, i) => {

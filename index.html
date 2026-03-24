@@ -323,7 +323,7 @@ function buildCard(item, imgSrc) {
 
   const nameEl = document.createElement('div');
   nameEl.className = 'popup-name';
-  nameEl.textContent = item.model_name || '(no name)';
+  nameEl.textContent = item.model_name || item.q_id '(no name)';
 
   popup.appendChild(nameEl);
 

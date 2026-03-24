@@ -1,208 +1,208 @@
-QUT ID #,Reference #,Name of Model,Manufacturer,Location,W Count,Q Count,Total Count,Expected Quantity
-1.00,AS 9/3,Transparent Torso Model with Blood vessels and head,SOMSO,Cupboard 7,1,0,1,1
-1.01,,Asian Torso,Original Somso,Cupboard 7,1,0,1,1
-1.02,AS 23/1,Male Torso with Head and Open Back (20 parts),SOMSO,"W101, W306",8,4,12,12
-1.03,AS 4,Torso on Beige Base with Removable head,SOMSO,W306,1,0,1,1
-1.05,AS 44,Torso without Head and 1/2 omentum,SOMSO,Compactus,1,0,1,1
-1.06,AS 7,"Torso, 1/2 muscle, M & F chest and genitalia ",SOMSO,W306,2,2,4,4
-1.07,AS 6,Muscular torso with interchange male & female genitalia,SOMSO,Compactus,2,0,2,2
-1.08,0799-00,Plane Jane,Denoyer Geppert,W306,2,0,2,2
-1.09,201,Torso on White Base - Azygos Vein,Unknown,Compactus,3,0,3,3
-1.10,AS 3 AP/NR,Colour Coded Male Muscle Figure (1 Part),SOMSO,W306,1,0,1,1
-1.11,BS 9,Sagittal 1/2 Head,SOMSO,Cupboard 5,6,3,9,9
-1.12,BS 43,Sagittal and Frontal Head Section Slab,SOMSO,Cupboard 5,6,2,8,8
-1.14,FS 4,"Median Section of the Cavities of Nose, Mouth, and Throat ",SOMSO,Cupboard 6,6,0,6,6
-1.20,FS 5,XL Head with Cavities of Nose/Mouth,SOMSO,Cupboard 6,1,0,1,1
-1.21,BS 3,Big Head and Shoulders,SOMSO,Cupboard 8,5,4,9,9
-1.22,BS 18,Small Head and Neck,SOMSO,Cupboard 8,5,0,5,5
-1.31,HS 7,Organs of the Thorax,SOMSO,Cupboard 7,8,2,10,10
-1.33,,Plaster Thorax on Wood Slide Base (2 parts),Original Somso,W306,1,0,1,1
-1.35,AS 1,Benchtop Muscleman (27 parts),SOMSO,W306,7,1,8,8
-1.36,AS 1/1,Benchtop Muscleman (3 parts),SOMSO,Compactus,3,0,3,3
-1.37,AS 2/2,Muscleman on Wheeled Castor Base ,SOMSO,W306,2,0,2,2
-1.42,MS 10,Female Pelvis with Muscles,SOMSO,Cupboard 10,5,0,5,5
-1.43,NA,Pelvis with muscles and ligaments - female (plaster),NA,Cupboard 10,1,0,1,1
-1.51,NS 15,Muscles of the Arm ,SOMSO,Cupboard 5,9,1,10,10
-1.52,NS 13,Muscles of the Hand,SOMSO,Cupboard 21,5,0,5,5
-1.61,NS 10,Muscles of the Leg,SOMSO,Cupboard 6,9,1,10,10
-1.62,NS 9,Muscles of the Foot (9 parts),SOMSO,Cupboard 19,9,2,11,11
-1.63,NS 1,Normal Foot,SOMSO,Cupboard 18,1,0,1,1
-1.64,NS 2,Flat Foot,SOMSO,Cupboard 18,1,0,1,1
-1.65,NS 3,Arched Foot,SOMSO,Cupboard 18,1,0,1,1
-1.66,NS 7,"Foot - on Stand, Skin on Toes",SOMSO,Cupboard 18,1,0,1,1
-1.70,BS 5/5,Axial Sectional Head (11 sections),SOMSO,Cupboard 8,3,2,5,5
-3.01,KS 1 ,Skin,SOMSO,Cupboard 9,10,4,14,14
-3.03,KS 3,Skin Block,SOMSO,Q704,0,2,2,2
-3.11,MS 7/1,Breast - Lactating,SOMSO,Cupboard 9,2,2,4,4
-3.12,MS 7,Breast - Non-Lactating,SOMSO,Cupboard 9,2,2,4,4
-4.01,QS 10/1,Male Skeleton - Articulated,SOMSO,"W102,W306",6,3,9,9
-4.02,QS 10/8,Female Skeleton - Articulated,SOMSO,"W102,W306",5,0,5,5
-4.03,QS 10/6+9L,Origin/Insertion Skeleton - Articulated,SOMSO,"W102,W306",3,0,3,3
-4.04,QS 40/1,1/2 Skeleton Set,SOMSO,bone boxes,14,0,14,14
-4.10,QS 17/3,Hyoid Bone,SOMSO,bone boxes,12,0,12,12
-4.11,QS 7,Skull,SOMSO,Cupboard 23,14,4,18,18
-4.12,QS 9,Bauchene (Exploded) Skull ,SOMSO,Cupboard 14,3,1,4,4
-4.13,QS 3,Newborn Skull,SOMSO,Cupboard 23,4,2,6,6
-4.14,QS 3/2,Child Skull (6 Years),SOMSO,Cupboard 23,4,2,6,6
-4.15,QS 8/3,Multicoloured Skull,SOMSO,Cupboard 23,5,2,7,7
-4.20,QS 69,Ear Ossicles in Display Case,SOMSO,Cupboard 10,6,4,10,10
-4.41,QS 16,Articulated Male Pelvis,SOMSO,Cupboard 12,5,2,7,7
-4.42,QS 26,Articulated Female Pelvis,SOMSO,Cupboard 11,5,2,7,7
-4.66,QS 23,Foot Bones with Distal Tib/Fib - Articulated with Metal Wire,SOMSO,Cupboard 18,5,0,5,5
-4.68,QS 25,Foot Bones - Articulated with Metal Wire,SOMSO,Q704,,2,2,2
-4.81,QS 61,Osteon,SOMSO,Cupboard 16 & 17,7,3,10,10
-4.91,NS 48,Shoulder - Framed Section,SOMSO,Cupboard 22,4,2,6,6
-4.92,NS 46,Elbow - Framed Section,SOMSO,Cupboard 25,5,1,6,6
-4.93,NS 45,Hand - Framed Section,SOMSO,Cupboard 21,5,1,6,6
-4.94,NS 44,Hip - Framed Section,SOMSO,Cupboard 20,5,1,6,6
-4.95,NS 43,Knee - Framed Section,SOMSO,Cupboard 24,5,1,6,6
-4.96,NS 47,Foot - Framed Section,SOMSO,Cupboard 18,5,1,6,6
-5.01,QS 19/10,Foot Bones - Articulated with Plastic String,SOMSO,bone boxes,6,0,6,6
-5.02,QS 19/20,Hand Bones - Articulated with Plastic String,SOMSO,bone boxes,5,0,5,5
-5.31,NS 17,Shoulder Joint - Immovable,SOMSO,Cupboard 22,4,2,6,6
-5.32,NS 53,Shoulder Joint - Flexible,SOMSO,Cupboard 22,4,4,8,8
-5.41,NS 18,Elbow Joint - Immovable,SOMSO,Cupboard 25,5,2,7,7
-5.411,,Humerus with Radius and Ulna,Old SOMSO,Q704,,1,,
-5.412,,Distal half of the Humerus with Radius and Ulna,Old SOMSO,Q704,,1,,
-5.42,NS 52,Elbow Joint - Flexible,SOMSO,Cupboard 25,5,4,9,9
-5.50,MS 10/1,Pelvis with Ligaments,SOMSO,Cupboard 15,3,0,3,3
-5.51,NS 20,Hip Joint - Immovable,SOMSO,Cupboard 20,5,2,7,7
-5.52,NS 51,Hip Joint - Flexible,SOMSO,Cupboard 20,5,4,9,9
-5.61,NS 19,Knee Joint - Immovable,SOMSO,Cupboard 24,5,2,7,7
-5.62,NS 50,Knee Joint - Flexible,SOMSO,Cupboard 24,7,4,11,11
-5.72,NS 21,Foot with Ligaments,SOMSO,Cupboard 19,7,2,9,9
-5.73,NS 37,Ligaments of the Ankle with Open Talonavicular Joint,SOMSO,Cupboard 19,5,0,5,5
-6.01,BS 36,Skeletal Muscular Fibre on Green Base,SOMSO,Cupboard 28,6,3,9,9
-6.02,0779-00,Complete Sarcomere,Denoyer Geppert,Q704,0,1,1,1
-6.03,6000.32,Skeletal Muscle Fibre on Grey Base,Altay Scientific,Cupboard 28,2,2,4,4
-6.04,B60,Skeletal Muscle Fibre on White Base,3B,Cupboard 28,4,0,4,4
-7.00,HS 6/1,Heart with Conducting System ,SOMSO,Cupboard 27,8,0,8,8
-7.01,HS 5,Heart,SOMSO,Cupboard 27,2,0,2,2
-7.012,HS 3,Heart - 3/4 Natural Size (2 parts),SOMSO,Q704,0,1,1,1
-7.013,HS 4,Heart - Natural Size (2 parts),SOMSO,Q704,0,3,3,3
-7.014,HS 6,Heart - 1 1/2 Natural Size (5 parts),SOMSO,Q704,0,2,2,2
-7.04,HS 22,Heart on Diaphragm Base,SOMSO,Cupboard 26,5,2,7,7
-7.05,HS 15/1,Triple Bypass Heart,SOMSO,Cupboard 27,1,0,1,1
-7.06,HS 24,Foetal Heart (3 parts),SOMSO,Cupboard 27,1,2,3,3
-7.10,HS 25/2,Artery and Vein,SOMSO,Cupboard 33,6,2,8,8
-7.211,,Artery with Cholesterol,GPI Anatomicals,Q704,0,1,1,1
-7.41,HS 19,Lymph Node,SOMSO,Cupboard 29,7,4,11,11
-7.449,,Heart with diseased parts of arteries,Lippincott Williams & Wilkins,Q704,0,2,2,2
-7.50,HS 19/1,Lymphatic Slab,SOMSO,Cupboard 32,6,0,6,6
-8.02,BS 20/1,Half Brain,SOMSO,Cupboard 30,5,0,5,5
-8.03,QS 65/6,Skull with Arteries - Circle of Willis,SOMSO,Cupboard 30,5,4,9,9
-8.036,1020160,"Skull and Cervical Column on Stand - With Arteries and Nerves, Removable Calvaria ",3B,Q704,0,2,2,2
-8.05,BS 23,Whole Brain,SOMSO,Cupboard 30,12,3,15,15
-8.06,BS 2,Tentorium Skull,SOMSO,Cupboard 31,6,3,9,9
-8.061,BS 5/1,Base of the Head (8 parts),SOMSO,Q704,0,2,2,2
-8.11,BS 24,Grey Brain Ventricles,SOMSO,Cupboard 31,7,6,13,13
-8.12,VH410,Amber Brain Ventricles,3B,Cupboard 31,4,0,4,4
-8.21,BS 25/1,Coloured Brain on Base of Skull (with cervical vertebrae),SOMSO,Cupboard 31,6,0,6,6
-8.22,BS 23/4,Coloured Brain on Stand (with medial portion of skulls),SOMSO,Cupboard 31,3,0,3,3
-8.23,QS 65/7,Brain in Transparent Skull,SOMSO,Cupboard 31,3,0,3,3
-8.24,BS 25/T,Transparent Brain with Visible Brainstem,SOMSO,Cupboard 31,1,0,1,1
-8.25,BS 23/3,Brain with 1/2 Meninges,SOMSO,Cupboard 31,2,0,2,2
-8.26,BS 25/2-T,Brainstem with Deep Brain Structures,SOMSO,Cupboard 31,2,0,2,2
-8.27,BS 45,5 Sections of the Brain in Wooden Case,SOMSO,Cupboard 30,2,0,2,2
-8.31,BS 31,Spinal Slab,SOMSO,Cupboard 34,6,1,7,7
-8.32,QS 21/3,Hanging Vertebral Column with Pelvis ,SOMSO,Compactus,4,2,6,6
-8.33,QS 15,Hanging Vertebral Column,SOMSO,Compactus,1,1,2,2
-8.34,QS 21/5,Hanging Vertebral Column with Pelvis - Prolapsed Disc and Laminectomy,SOMSO,Compactus,1,1,2,2
-8.41,QS 65/5,Pectoral Girdle with Brachial Plexus,SOMSO,Cupboard 42,3,0,3,3
-8.42,QS 66/2,Pelvic Girdle with Lumbar Plexus,SOMSO,Cupboard 43,3,0,3,3
-8.43,BS 26/1,Nervous System Slab with Digestive Innervation,SOMSO,Cupboard 34,2,0,2,2
-8.44,BS 27,Nervous System Slab with Limb Innervation,SOMSO,Cupboard 34,3,0,3,3
-8.51,BS 30,Fifth Cervical Vertebra,SOMSO,Cupboard 30,8,5,13,13
-8.52,BS 32/37,"Spinal Cord (2 models as 1 piece, on green board, with removable clear box cover)",SOMSO,Cupboard 30,3,0,3,3
-8.53,QS 54,6x Example Vertebrae in Case,SOMSO,Cupboard 30,1,0,1,1
-8.54,0165-00,Deluxe Spinal Cord - Enlarged 6x,Denoyer Geppert,Q704,0,1,1,1
-8.55,BS 33 (part 1),Model 1: Spinal cord with nerves on stand (same as 8.52),SOMSO,Cupboard 30,1,1,2,2
-8.56,BS 33 (part 2),Model 2: Section through spinal cord on stand (same as 8.52),SOMSO,Cupboard 30,2,0,2,2
-8.61,NA,Neuron - Old,NA,Q704,0,1,1,1
-8.62,BS 35/1,"Neuron (1 part, green board)",SOMSO,Cupboard 31,6,4,10,10
-8.63,BS 35/3,Synapse,SOMSO,Cupboard 30,7,5,12,12
-8.64,0167-00,Motor Neuron Diorama,Denoyer Geppert,Cupboard 31,2,2,4,4
-8.71,BS 28,Lumbar Vertebra (L II) with Spinal Cord,SOMSO,Cupboard 30,1,0,1,1
-8.72,BS 28/1,Thoracic Vertebra (TH II) with Spinal Cord,SOMSO,Cupboard 30,1,0,1,1
-8.73,BS 29,Cervical Vertebra (C VI) with Spinal Cord,SOMSO,Cupboard 30,1,0,1,1
-8.81,BS 35,Large Neuron on Clear Base,SOMSO,Cupboard 30,1,0,1,1
-9.03,CS 7,Eyeball ( 5 parts),SOMSO,Cupboard 36,2,0,2,2
-9.04,CS 2/2,Eye with Eyelid,SOMSO,Cupboard 35,10,3,13,13
-9.05,CS 8/1,Large Eye,SOMSO,Cupboard 37,1,0,1,1
-9.06,CS 2,Eye without Eyelid,SOMSO,Cupboard 35,2,0,2,2
-9.11,DS 5,Ear,SOMSO,Cupboard 38,10,3,13,13
-9.14,DS 13,Ear Labyrinth (only has root of nerve network),SOMSO,Cupboard 39,3,1,4,4
-9.15,DS 14,Ear Labyrinth with network of nerves,SOMSO,Cupboard 39,2,0,2,2
-9.17,DS 10,Section Through the Central Spiral of the Cochlea - Slab,SOMSO,Q704,0,1,1,1
-9.18,DS 18,Ear Ossicles on stand,SOMSO,Cupboard 39,2,1,3,3
-9.19,DS 17,Labyrinth with Ossicles and Tympanic Membrane (3 parts),SOMSO,Cupboard 39,4,1,5,5
-11.01,(From AS 6),Interchangeable sex organs - Male ,SOMSO,Cupboard 45,2,1,3,3
-11.02,(From AS 6),Interchangeable sex organs - Female,SOMSO,Cupboard 45,2,1,3,3
-11.03,(From AS 7/AS 4),"Chest Piece (Female) 2x from AS 7 Torso, 1x from AS 4 Torso",SOMSO,Cupboard 44,3,1,4,4
-11.04,(From AS 7),Chest Piece (Male),SOMSO,Cupboard 44,2,1,3,3
-11.05,(From AS 7),Abdominal Muscles,SOMSO,Cupboard 44,2,0,2,2
-11.11,MS 2,Male Pelvic Reproductive Slab,SOMSO,Cupboard 46,10,4,14,14
-11.12,MS 1,Female Pelvic Reproductive Slab,SOMSO,Cupboard 47,10,4,14,14
-11.13,MS 42,Internal Female Genital Organs (2 parts) - Showing an Embryo in the 10th week,SOMSO,W306,1,0,1,1
-11.15,MS 3/2,Transparent Model of Male Sexual Organs,SOMSO,Cupboard 40,2,0,2,2
-11.16,MS 5/2,Transparent Model of Female Sexual Organs,SOMSO,Cupboard 41,2,0,2,2
-11.20,MS 15,Fertilization and Development of the Human Ovum up to the 3rd Month (Display Box of the 16 Models),SOMSO,Compactus,1,0,1,1
-11.21,MS 47,Fertilization and Development of the Human Ovum up to the 3rd Month (Individual Set of the 16 Models [A-P]),SOMSO,Compactus,1,0,1,1
-11.22,MS 11,Embryo (approximately 4 weeks) - Enlarged 25x,SOMSO,Compactus,2,0,2,2
-11.23,MS 46,Human Development of the Embryo up to the end of the 1st Month (Set of 13 models [A-M]),SOMSO,Compactus,2,0,2,2
-11.25,MS 21,Obstetric Phantom,SOMSO,W306,1,0,1,1
-11.31,MS 12/1,Uterus with Embryo in 1st Month,SOMSO,Compactus,1,0,1,1
-11.32,MS 12/2,Uterus with Embryo in 2nd Month,SOMSO,Compactus,1,0,1,1
-11.33,MS 12/3,Uterus with Embryo in 3rd Month,SOMSO,Compactus,1,0,1,1
-11.34,MS 12/4,Uterus with Foetus in 4th - 5th Month (2 parts) - Abdominal Position,SOMSO,Compactus,1,0,1,1
-11.35,MS 12/5,Uterus with Foetus in 5th Month (2 parts) - Breech Position,SOMSO,Compactus,1,0,1,1
-11.36,MS 12/6,Uterus with Foetus in 5th Month (2 parts) - Dorsal Position,SOMSO,Compactus,1,0,1,1
-11.37,MS 12/7,Uterus with Foetus in 7th month (2 parts) - Normal Position,SOMSO,Compactus,1,0,1,1
-11.38,MS 12/8,Uterus with Twin Foetuses in 5th Month (3 parts),SOMSO,Compactus,1,0,1,1
-11.39,MS 13/1,Pelvis with Uterus and Foetus in 9th month of Pregnancy (4 parts),SOMSO,W306,1,0,1,1
-11.41,MS 50,Ovary Enlarged 10x,SOMSO,Cupboard 48 & 49,4,2,6,6
-11.43,MS 08/1,Female Pelvis with Muscles on Clear Base,SOMSO,Cupboard 45,2,0,2,2
-11.50,MS 4/1,Fertilisation Slab,SOMSO,W306,2,1,3,3
-11.61,MS 45/1,Birth Process - First Stage,SOMSO,W306,1,0,1,1
-11.62,MS 45/2,Birth Process - Second Stage,SOMSO,W306,1,0,1,1
-11.63,MS 45/3,Birth Process - Third Stage,SOMSO,W306,1,0,1,1
-11.71,MS 48/3-1,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open side",SOMSO,Compactus,1,0,1,1
-11.72,MS 48/3-2,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open front",SOMSO,Compactus,1,0,1,1
-11.73,MS 48/3-3,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open back",SOMSO,Compactus,1,0,1,1
-11.74,MS 48/3-4,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Displays internal organs ",SOMSO,Compactus,1,0,1,1
-11.75,MS 48/3-5,"Anatomy of Human Embryos (approximately 4 weeks) - Enlarged 50x, Open side ",SOMSO,Compactus,1,0,1,1
-11.76,MS 48/3-6,"Anatomy of Human Embryos (approximately 4 weeks) - Enlarged 50x, Open Thoracic & Adbominal cavity",SOMSO,Compactus,1,0,1,1
-11.77,MS 48/3-7,"Anatomy of Human Embryos (end of 4 weeks) - Enlarged 30x, Open laterally ",SOMSO,Compactus,1,0,1,1
-11.78,MS 48/3-8,"Anatomy of Human Embryos (end of 4 weeks) - Enlarged 30x, Open laterally with vascular details",SOMSO,Compactus,1,0,1,1
-11.81,MS 49 (1/8),Brain of Human Embryo (approximately 4 weeks),SOMSO,Compactus,1,0,1,1
-11.82,MS 49 (2/8),Brain of Human Embryo (approximately 4.5 weeks),SOMSO,Compactus,1,0,1,1
-11.83,MS 49 (3/8),Brain of Human Embryo (approximately 5 weeks) - View of Lateral Ventricles,SOMSO,Compactus,1,0,1,1
-11.84,MS 49 (4/8),Brain of Human Embryo (approximately 5 weeks) - Cross Section,SOMSO,Compactus,1,0,1,1
-11.85,MS 49 (5/8),Brain of Human Embryo (approximately 5 weeks) - Cerebellum removed for view of Brain Stem,SOMSO,Compactus,1,0,1,1
-11.86,MS 49 (6/8),Brain of Human Foetus (3 months) - View of Lateral Ventricles,SOMSO,Compactus,1,0,1,1
-11.87,MS 49 (7/8),Brain of Human Foetus (3 months) - Cross Section,SOMSO,Compactus,1,0,1,1
-11.88,MS 49 (8/8),Brain of Human Foetus (3 months) - View of Deep Structures,SOMSO,Compactus,1,0,1,1
-11.90,MS 16,Foetal Circulatory System (2 parts),SOMSO,W306,2,0,2,2
-12.01,GS 10,Larynx large with flexible ligaments,SOMSO,Cupboard 51,1,2,3,3
-12.11,GS 6,Larynx,SOMSO,Cupboard 51,5,2,7,7
-12.21,GS 4/1,Bronchial Tree,SOMSO,Cupboard 50,8,4,12,12
-12.211,GS 5,Larynx with Trachea (6 parts),SOMSO,Q704,0,2,2,2
-12.31,HS 23,Lobule of the Lung and Alveoli ,SOMSO,Cupboard 50,6,2,8,8
-13.01,JS 2/2,Digestive Tract Slab,SOMSO,Cupboard 32,6,2,8,8
-13.03,JS 8/1,Transparent Liver with Vascular Architecture,SOMSO,Cupboard 51,1,0,1,1
-13.04,JS 8/2,Transparent Liver and Gallbladder with Vascular Architecture (Large),SOMSO,Cupboard 51,1,0,1,1
-13.10,ES 14/1,Development of a Set of Teeth (8 parts),SOMSO,Cupboard 54,1,0,1,1
-13.11,ES 14,Development of a Set of Teeth ,SOMSO,Cupboard 54,1,0,1,1
-13.12,ES 11/5,First Upper Molar with Three Roots,SOMSO,Cupboard 54,2,0,2,2
-13.20,JS 4,Stomach (2 parts),SOMSO,Cupboard 54,4,0,4,4
-13.41,0142-00,Villus,Denoyer Geppert,Cupboard 52,7,3,10,10
-13.51,JS 11,Pancreas with Spleen and Duodenum,SOMSO,Cupboard 53,6,3,9,9
-13.52,K22/3,Rear Organs of Upper Abdomen,3B,Cupboard 53,2,0,2,2
-13.61,JS 8,Liver with Gallbladder,SOMSO,Cupboard 51,6,2,8,8
-14.11,LS 1,Right Kidney on Stand,SOMSO,Cupboard 56,1,0,1,1
-14.21,LS 9,3 Part Kidney Slab,SOMSO,Cupboard 57 & 58,8,2,10,10
-14.31,LS 4,1/2 Kidney slab ,SOMSO,Cupboard 56,5,2,7,7
-14.41,LS 6,Nephron,SOMSO,Cupboard 56,3,0,3,3
-14.51,LS 7,Glomerulus,SOMSO,Cupboard 56,5,1,6,6
-14.61,LS 3,Urinary System,SOMSO,Cupboard 55,7,1,8,8
-15.01,ZoS 120,Animal Cell,SOMSO,Cupboard 58 & 59,5,2,7,7
+Q_id,ref_id,model_name,manufacturer,location,W_count,Q_count,Total_count
+1.00,AS 9/3,Transparent Torso Model with Blood vessels and head,SOMSO,Cupboard 7,1,0,1
+1.01,,Asian Torso,Original Somso,Cupboard 7,1,0,1
+1.02,AS 23/1,Male Torso with Head and Open Back (20 parts),SOMSO,"W101, W306",8,4,12
+1.03,AS 4,Torso on Beige Base with Removable head,SOMSO,W306,1,0,1
+1.05,AS 44,Torso without Head and 1/2 omentum,SOMSO,Compactus,1,0,1
+1.06,AS 7,"Torso, 1/2 muscle, M & F chest and genitalia ",SOMSO,W306,2,2,4
+1.07,AS 6,Muscular torso with interchange male & female genitalia,SOMSO,Compactus,2,0,2
+1.08,0799-00,Plane Jane,Denoyer Geppert,W306,2,0,2
+1.09,201,Torso on White Base - Azygos Vein,Unknown,Compactus,3,0,3
+1.10,AS 3 AP/NR,Colour Coded Male Muscle Figure (1 Part),SOMSO,W306,1,0,1
+1.11,BS 9,Sagittal 1/2 Head,SOMSO,Cupboard 5,6,3,9
+1.12,BS 43,Sagittal and Frontal Head Section Slab,SOMSO,Cupboard 5,6,2,8
+1.14,FS 4,"Median Section of the Cavities of Nose, Mouth, and Throat ",SOMSO,Cupboard 6,6,0,6
+1.20,FS 5,XL Head with Cavities of Nose/Mouth,SOMSO,Cupboard 6,1,0,1
+1.21,BS 3,Big Head and Shoulders,SOMSO,Cupboard 8,5,4,9
+1.22,BS 18,Small Head and Neck,SOMSO,Cupboard 8,5,0,5
+1.31,HS 7,Organs of the Thorax,SOMSO,Cupboard 7,8,2,10
+1.33,,Plaster Thorax on Wood Slide Base (2 parts),Original Somso,W306,1,0,1
+1.35,AS 1,Benchtop Muscleman (27 parts),SOMSO,W306,7,1,8
+1.36,AS 1/1,Benchtop Muscleman (3 parts),SOMSO,Compactus,3,0,3
+1.37,AS 2/2,Muscleman on Wheeled Castor Base ,SOMSO,W306,2,0,2
+1.42,MS 10,Female Pelvis with Muscles,SOMSO,Cupboard 10,5,0,5
+1.43,NA,Pelvis with muscles and ligaments - female (plaster),NA,Cupboard 10,1,0,1
+1.51,NS 15,Muscles of the Arm ,SOMSO,Cupboard 5,9,1,10
+1.52,NS 13,Muscles of the Hand,SOMSO,Cupboard 21,5,0,5
+1.61,NS 10,Muscles of the Leg,SOMSO,Cupboard 6,9,1,10
+1.62,NS 9,Muscles of the Foot (9 parts),SOMSO,Cupboard 19,9,2,11
+1.63,NS 1,Normal Foot,SOMSO,Cupboard 18,1,0,1
+1.64,NS 2,Flat Foot,SOMSO,Cupboard 18,1,0,1
+1.65,NS 3,Arched Foot,SOMSO,Cupboard 18,1,0,1
+1.66,NS 7,"Foot - on Stand, Skin on Toes",SOMSO,Cupboard 18,1,0,1
+1.70,BS 5/5,Axial Sectional Head (11 sections),SOMSO,Cupboard 8,3,2,5
+3.01,KS 1 ,Skin,SOMSO,Cupboard 9,10,4,14
+3.03,KS 3,Skin Block,SOMSO,Q704,0,2,2
+3.11,MS 7/1,Breast - Lactating,SOMSO,Cupboard 9,2,2,4
+3.12,MS 7,Breast - Non-Lactating,SOMSO,Cupboard 9,2,2,4
+4.01,QS 10/1,Male Skeleton - Articulated,SOMSO,"W102,W306",6,3,9
+4.02,QS 10/8,Female Skeleton - Articulated,SOMSO,"W102,W306",5,0,5
+4.03,QS 10/6+9L,Origin/Insertion Skeleton - Articulated,SOMSO,"W102,W306",3,0,3
+4.04,QS 40/1,1/2 Skeleton Set,SOMSO,bone boxes,14,0,14
+4.10,QS 17/3,Hyoid Bone,SOMSO,bone boxes,12,0,12
+4.11,QS 7,Skull,SOMSO,Cupboard 23,14,4,18
+4.12,QS 9,Bauchene (Exploded) Skull ,SOMSO,Cupboard 14,3,1,4
+4.13,QS 3,Newborn Skull,SOMSO,Cupboard 23,4,2,6
+4.14,QS 3/2,Child Skull (6 Years),SOMSO,Cupboard 23,4,2,6
+4.15,QS 8/3,Multicoloured Skull,SOMSO,Cupboard 23,5,2,7
+4.20,QS 69,Ear Ossicles in Display Case,SOMSO,Cupboard 10,6,4,10
+4.41,QS 16,Articulated Male Pelvis,SOMSO,Cupboard 12,5,2,7
+4.42,QS 26,Articulated Female Pelvis,SOMSO,Cupboard 11,5,2,7
+4.66,QS 23,Foot Bones with Distal Tib/Fib - Articulated with Metal Wire,SOMSO,Cupboard 18,5,0,5
+4.68,QS 25,Foot Bones - Articulated with Metal Wire,SOMSO,Q704,,2,2
+4.81,QS 61,Osteon,SOMSO,Cupboard 16 & 17,7,3,10
+4.91,NS 48,Shoulder - Framed Section,SOMSO,Cupboard 22,4,2,6
+4.92,NS 46,Elbow - Framed Section,SOMSO,Cupboard 25,5,1,6
+4.93,NS 45,Hand - Framed Section,SOMSO,Cupboard 21,5,1,6
+4.94,NS 44,Hip - Framed Section,SOMSO,Cupboard 20,5,1,6
+4.95,NS 43,Knee - Framed Section,SOMSO,Cupboard 24,5,1,6
+4.96,NS 47,Foot - Framed Section,SOMSO,Cupboard 18,5,1,6
+5.01,QS 19/10,Foot Bones - Articulated with Plastic String,SOMSO,bone boxes,6,0,6
+5.02,QS 19/20,Hand Bones - Articulated with Plastic String,SOMSO,bone boxes,5,0,5
+5.31,NS 17,Shoulder Joint - Immovable,SOMSO,Cupboard 22,4,2,6
+5.32,NS 53,Shoulder Joint - Flexible,SOMSO,Cupboard 22,4,4,8
+5.41,NS 18,Elbow Joint - Immovable,SOMSO,Cupboard 25,5,2,7
+5.411,,Humerus with Radius and Ulna,Old SOMSO,Q704,,1,
+5.412,,Distal half of the Humerus with Radius and Ulna,Old SOMSO,Q704,,1,
+5.42,NS 52,Elbow Joint - Flexible,SOMSO,Cupboard 25,5,4,9
+5.50,MS 10/1,Pelvis with Ligaments,SOMSO,Cupboard 15,3,0,3
+5.51,NS 20,Hip Joint - Immovable,SOMSO,Cupboard 20,5,2,7
+5.52,NS 51,Hip Joint - Flexible,SOMSO,Cupboard 20,5,4,9
+5.61,NS 19,Knee Joint - Immovable,SOMSO,Cupboard 24,5,2,7
+5.62,NS 50,Knee Joint - Flexible,SOMSO,Cupboard 24,7,4,11
+5.72,NS 21,Foot with Ligaments,SOMSO,Cupboard 19,7,2,9
+5.73,NS 37,Ligaments of the Ankle with Open Talonavicular Joint,SOMSO,Cupboard 19,5,0,5
+6.01,BS 36,Skeletal Muscular Fibre on Green Base,SOMSO,Cupboard 28,6,3,9
+6.02,0779-00,Complete Sarcomere,Denoyer Geppert,Q704,0,1,1
+6.03,6000.32,Skeletal Muscle Fibre on Grey Base,Altay Scientific,Cupboard 28,2,2,4
+6.04,B60,Skeletal Muscle Fibre on White Base,3B,Cupboard 28,4,0,4
+7.00,HS 6/1,Heart with Conducting System ,SOMSO,Cupboard 27,8,0,8
+7.01,HS 5,Heart,SOMSO,Cupboard 27,2,0,2
+7.012,HS 3,Heart - 3/4 Natural Size (2 parts),SOMSO,Q704,0,1,1
+7.013,HS 4,Heart - Natural Size (2 parts),SOMSO,Q704,0,3,3
+7.014,HS 6,Heart - 1 1/2 Natural Size (5 parts),SOMSO,Q704,0,2,2
+7.04,HS 22,Heart on Diaphragm Base,SOMSO,Cupboard 26,5,2,7
+7.05,HS 15/1,Triple Bypass Heart,SOMSO,Cupboard 27,1,0,1
+7.06,HS 24,Foetal Heart (3 parts),SOMSO,Cupboard 27,1,2,3
+7.10,HS 25/2,Artery and Vein,SOMSO,Cupboard 33,6,2,8
+7.211,,Artery with Cholesterol,GPI Anatomicals,Q704,0,1,1
+7.41,HS 19,Lymph Node,SOMSO,Cupboard 29,7,4,11
+7.449,,Heart with diseased parts of arteries,Lippincott Williams & Wilkins,Q704,0,2,2
+7.50,HS 19/1,Lymphatic Slab,SOMSO,Cupboard 32,6,0,6
+8.02,BS 20/1,Half Brain,SOMSO,Cupboard 30,5,0,5
+8.03,QS 65/6,Skull with Arteries - Circle of Willis,SOMSO,Cupboard 30,5,4,9
+8.036,1020160,"Skull and Cervical Column on Stand - With Arteries and Nerves, Removable Calvaria ",3B,Q704,0,2,2
+8.05,BS 23,Whole Brain,SOMSO,Cupboard 30,12,3,15
+8.06,BS 2,Tentorium Skull,SOMSO,Cupboard 31,6,3,9
+8.061,BS 5/1,Base of the Head (8 parts),SOMSO,Q704,0,2,2
+8.11,BS 24,Grey Brain Ventricles,SOMSO,Cupboard 31,7,6,13
+8.12,VH410,Amber Brain Ventricles,3B,Cupboard 31,4,0,4
+8.21,BS 25/1,Coloured Brain on Base of Skull (with cervical vertebrae),SOMSO,Cupboard 31,6,0,6
+8.22,BS 23/4,Coloured Brain on Stand (with medial portion of skulls),SOMSO,Cupboard 31,3,0,3
+8.23,QS 65/7,Brain in Transparent Skull,SOMSO,Cupboard 31,3,0,3
+8.24,BS 25/T,Transparent Brain with Visible Brainstem,SOMSO,Cupboard 31,1,0,1
+8.25,BS 23/3,Brain with 1/2 Meninges,SOMSO,Cupboard 31,2,0,2
+8.26,BS 25/2-T,Brainstem with Deep Brain Structures,SOMSO,Cupboard 31,2,0,2
+8.27,BS 45,5 Sections of the Brain in Wooden Case,SOMSO,Cupboard 30,2,0,2
+8.31,BS 31,Spinal Slab,SOMSO,Cupboard 34,6,1,7
+8.32,QS 21/3,Hanging Vertebral Column with Pelvis ,SOMSO,Compactus,4,2,6
+8.33,QS 15,Hanging Vertebral Column,SOMSO,Compactus,1,1,2
+8.34,QS 21/5,Hanging Vertebral Column with Pelvis - Prolapsed Disc and Laminectomy,SOMSO,Compactus,1,1,2
+8.41,QS 65/5,Pectoral Girdle with Brachial Plexus,SOMSO,Cupboard 42,3,0,3
+8.42,QS 66/2,Pelvic Girdle with Lumbar Plexus,SOMSO,Cupboard 43,3,0,3
+8.43,BS 26/1,Nervous System Slab with Digestive Innervation,SOMSO,Cupboard 34,2,0,2
+8.44,BS 27,Nervous System Slab with Limb Innervation,SOMSO,Cupboard 34,3,0,3
+8.51,BS 30,Fifth Cervical Vertebra,SOMSO,Cupboard 30,8,5,13
+8.52,BS 32/37,"Spinal Cord (2 models as 1 piece, on green board, with removable clear box cover)",SOMSO,Cupboard 30,3,0,3
+8.53,QS 54,6x Example Vertebrae in Case,SOMSO,Cupboard 30,1,0,1
+8.54,0165-00,Deluxe Spinal Cord - Enlarged 6x,Denoyer Geppert,Q704,0,1,1
+8.55,BS 33 (part 1),Model 1: Spinal cord with nerves on stand (same as 8.52),SOMSO,Cupboard 30,1,1,2
+8.56,BS 33 (part 2),Model 2: Section through spinal cord on stand (same as 8.52),SOMSO,Cupboard 30,2,0,2
+8.61,NA,Neuron - Old,NA,Q704,0,1,1
+8.62,BS 35/1,"Neuron (1 part, green board)",SOMSO,Cupboard 31,6,4,10
+8.63,BS 35/3,Synapse,SOMSO,Cupboard 30,7,5,12
+8.64,0167-00,Motor Neuron Diorama,Denoyer Geppert,Cupboard 31,2,2,4
+8.71,BS 28,Lumbar Vertebra (L II) with Spinal Cord,SOMSO,Cupboard 30,1,0,1
+8.72,BS 28/1,Thoracic Vertebra (TH II) with Spinal Cord,SOMSO,Cupboard 30,1,0,1
+8.73,BS 29,Cervical Vertebra (C VI) with Spinal Cord,SOMSO,Cupboard 30,1,0,1
+8.81,BS 35,Large Neuron on Clear Base,SOMSO,Cupboard 30,1,0,1
+9.03,CS 7,Eyeball ( 5 parts),SOMSO,Cupboard 36,2,0,2
+9.04,CS 2/2,Eye with Eyelid,SOMSO,Cupboard 35,10,3,13
+9.05,CS 8/1,Large Eye,SOMSO,Cupboard 37,1,0,1
+9.06,CS 2,Eye without Eyelid,SOMSO,Cupboard 35,2,0,2
+9.11,DS 5,Ear,SOMSO,Cupboard 38,10,3,13
+9.14,DS 13,Ear Labyrinth (only has root of nerve network),SOMSO,Cupboard 39,3,1,4
+9.15,DS 14,Ear Labyrinth with network of nerves,SOMSO,Cupboard 39,2,0,2
+9.17,DS 10,Section Through the Central Spiral of the Cochlea - Slab,SOMSO,Q704,0,1,1
+9.18,DS 18,Ear Ossicles on stand,SOMSO,Cupboard 39,2,1,3
+9.19,DS 17,Labyrinth with Ossicles and Tympanic Membrane (3 parts),SOMSO,Cupboard 39,4,1,5
+11.01,(From AS 6),Interchangeable sex organs - Male ,SOMSO,Cupboard 45,2,1,3
+11.02,(From AS 6),Interchangeable sex organs - Female,SOMSO,Cupboard 45,2,1,3
+11.03,(From AS 7/AS 4),"Chest Piece (Female) 2x from AS 7 Torso, 1x from AS 4 Torso",SOMSO,Cupboard 44,3,1,4
+11.04,(From AS 7),Chest Piece (Male),SOMSO,Cupboard 44,2,1,3
+11.05,(From AS 7),Abdominal Muscles,SOMSO,Cupboard 44,2,0,2
+11.11,MS 2,Male Pelvic Reproductive Slab,SOMSO,Cupboard 46,10,4,14
+11.12,MS 1,Female Pelvic Reproductive Slab,SOMSO,Cupboard 47,10,4,14
+11.13,MS 42,Internal Female Genital Organs (2 parts) - Showing an Embryo in the 10th week,SOMSO,W306,1,0,1
+11.15,MS 3/2,Transparent Model of Male Sexual Organs,SOMSO,Cupboard 40,2,0,2
+11.16,MS 5/2,Transparent Model of Female Sexual Organs,SOMSO,Cupboard 41,2,0,2
+11.20,MS 15,Fertilization and Development of the Human Ovum up to the 3rd Month (Display Box of the 16 Models),SOMSO,Compactus,1,0,1
+11.21,MS 47,Fertilization and Development of the Human Ovum up to the 3rd Month (Individual Set of the 16 Models [A-P]),SOMSO,Compactus,1,0,1
+11.22,MS 11,Embryo (approximately 4 weeks) - Enlarged 25x,SOMSO,Compactus,2,0,2
+11.23,MS 46,Human Development of the Embryo up to the end of the 1st Month (Set of 13 models [A-M]),SOMSO,Compactus,2,0,2
+11.25,MS 21,Obstetric Phantom,SOMSO,W306,1,0,1
+11.31,MS 12/1,Uterus with Embryo in 1st Month,SOMSO,Compactus,1,0,1
+11.32,MS 12/2,Uterus with Embryo in 2nd Month,SOMSO,Compactus,1,0,1
+11.33,MS 12/3,Uterus with Embryo in 3rd Month,SOMSO,Compactus,1,0,1
+11.34,MS 12/4,Uterus with Foetus in 4th - 5th Month (2 parts) - Abdominal Position,SOMSO,Compactus,1,0,1
+11.35,MS 12/5,Uterus with Foetus in 5th Month (2 parts) - Breech Position,SOMSO,Compactus,1,0,1
+11.36,MS 12/6,Uterus with Foetus in 5th Month (2 parts) - Dorsal Position,SOMSO,Compactus,1,0,1
+11.37,MS 12/7,Uterus with Foetus in 7th month (2 parts) - Normal Position,SOMSO,Compactus,1,0,1
+11.38,MS 12/8,Uterus with Twin Foetuses in 5th Month (3 parts),SOMSO,Compactus,1,0,1
+11.39,MS 13/1,Pelvis with Uterus and Foetus in 9th month of Pregnancy (4 parts),SOMSO,W306,1,0,1
+11.41,MS 50,Ovary Enlarged 10x,SOMSO,Cupboard 48 & 49,4,2,6
+11.43,MS 08/1,Female Pelvis with Muscles on Clear Base,SOMSO,Cupboard 45,2,0,2
+11.50,MS 4/1,Fertilisation Slab,SOMSO,W306,2,1,3
+11.61,MS 45/1,Birth Process - First Stage,SOMSO,W306,1,0,1
+11.62,MS 45/2,Birth Process - Second Stage,SOMSO,W306,1,0,1
+11.63,MS 45/3,Birth Process - Third Stage,SOMSO,W306,1,0,1
+11.71,MS 48/3-1,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open side",SOMSO,Compactus,1,0,1
+11.72,MS 48/3-2,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open front",SOMSO,Compactus,1,0,1
+11.73,MS 48/3-3,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Open back",SOMSO,Compactus,1,0,1
+11.74,MS 48/3-4,"Anatomy of Human Embryos (approximately 3 weeks) - Enlarged 53x, Displays internal organs ",SOMSO,Compactus,1,0,1
+11.75,MS 48/3-5,"Anatomy of Human Embryos (approximately 4 weeks) - Enlarged 50x, Open side ",SOMSO,Compactus,1,0,1
+11.76,MS 48/3-6,"Anatomy of Human Embryos (approximately 4 weeks) - Enlarged 50x, Open Thoracic & Adbominal cavity",SOMSO,Compactus,1,0,1
+11.77,MS 48/3-7,"Anatomy of Human Embryos (end of 4 weeks) - Enlarged 30x, Open laterally ",SOMSO,Compactus,1,0,1
+11.78,MS 48/3-8,"Anatomy of Human Embryos (end of 4 weeks) - Enlarged 30x, Open laterally with vascular details",SOMSO,Compactus,1,0,1
+11.81,MS 49 (1/8),Brain of Human Embryo (approximately 4 weeks),SOMSO,Compactus,1,0,1
+11.82,MS 49 (2/8),Brain of Human Embryo (approximately 4.5 weeks),SOMSO,Compactus,1,0,1
+11.83,MS 49 (3/8),Brain of Human Embryo (approximately 5 weeks) - View of Lateral Ventricles,SOMSO,Compactus,1,0,1
+11.84,MS 49 (4/8),Brain of Human Embryo (approximately 5 weeks) - Cross Section,SOMSO,Compactus,1,0,1
+11.85,MS 49 (5/8),Brain of Human Embryo (approximately 5 weeks) - Cerebellum removed for view of Brain Stem,SOMSO,Compactus,1,0,1
+11.86,MS 49 (6/8),Brain of Human Foetus (3 months) - View of Lateral Ventricles,SOMSO,Compactus,1,0,1
+11.87,MS 49 (7/8),Brain of Human Foetus (3 months) - Cross Section,SOMSO,Compactus,1,0,1
+11.88,MS 49 (8/8),Brain of Human Foetus (3 months) - View of Deep Structures,SOMSO,Compactus,1,0,1
+11.90,MS 16,Foetal Circulatory System (2 parts),SOMSO,W306,2,0,2
+12.01,GS 10,Larynx large with flexible ligaments,SOMSO,Cupboard 51,1,2,3
+12.11,GS 6,Larynx,SOMSO,Cupboard 51,5,2,7
+12.21,GS 4/1,Bronchial Tree,SOMSO,Cupboard 50,8,4,12
+12.211,GS 5,Larynx with Trachea (6 parts),SOMSO,Q704,0,2,2
+12.31,HS 23,Lobule of the Lung and Alveoli ,SOMSO,Cupboard 50,6,2,8
+13.01,JS 2/2,Digestive Tract Slab,SOMSO,Cupboard 32,6,2,8
+13.03,JS 8/1,Transparent Liver with Vascular Architecture,SOMSO,Cupboard 51,1,0,1
+13.04,JS 8/2,Transparent Liver and Gallbladder with Vascular Architecture (Large),SOMSO,Cupboard 51,1,0,1
+13.10,ES 14/1,Development of a Set of Teeth (8 parts),SOMSO,Cupboard 54,1,0,1
+13.11,ES 14,Development of a Set of Teeth ,SOMSO,Cupboard 54,1,0,1
+13.12,ES 11/5,First Upper Molar with Three Roots,SOMSO,Cupboard 54,2,0,2
+13.20,JS 4,Stomach (2 parts),SOMSO,Cupboard 54,4,0,4
+13.41,0142-00,Villus,Denoyer Geppert,Cupboard 52,7,3,10
+13.51,JS 11,Pancreas with Spleen and Duodenum,SOMSO,Cupboard 53,6,3,9
+13.52,K22/3,Rear Organs of Upper Abdomen,3B,Cupboard 53,2,0,2
+13.61,JS 8,Liver with Gallbladder,SOMSO,Cupboard 51,6,2,8
+14.11,LS 1,Right Kidney on Stand,SOMSO,Cupboard 56,1,0,1
+14.21,LS 9,3 Part Kidney Slab,SOMSO,Cupboard 57 & 58,8,2,10
+14.31,LS 4,1/2 Kidney slab ,SOMSO,Cupboard 56,5,2,7
+14.41,LS 6,Nephron,SOMSO,Cupboard 56,3,0,3
+14.51,LS 7,Glomerulus,SOMSO,Cupboard 56,5,1,6
+14.61,LS 3,Urinary System,SOMSO,Cupboard 55,7,1,8
+15.01,ZoS 120,Animal Cell,SOMSO,Cupboard 58 & 59,5,2,7

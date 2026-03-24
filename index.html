@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Catalog</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Fraunces:ital,wght@0,300;0,600;1,300&display=swap');
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0f0f0f;
+      --surface:   #1a1a1a;
+      --border:    #2e2e2e;
+      --accent:    #c8f55a;
+      --text:      #e8e4dc;
+      --muted:     #888;
+      --popup-bg:  #111;
+      --popup-border: #c8f55a;
+      --radius:    4px;
+      --gap:       16px;
+    }
+
+    html, body {
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'DM Mono', monospace;
+    }
+
+    /* ── Header ─────────────────────────────────────────── */
+    header {
+      padding: 40px 48px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+    }
+    header h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 300;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    header h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+    #item-count {
+      font-size: 0.72rem;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+    }
+
+    /* ── Grid ────────────────────────────────────────────── */
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: var(--gap);
+      padding: 32px 48px 80px;
+    }
+
+    /* ── Card ────────────────────────────────────────────── */
+    .card {
+      position: relative;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: visible;
+      cursor: pointer;
+      transition: border-color 0.18s, transform 0.18s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+    }
+    .card.pinned {
+      border-color: var(--accent);
+    }
+
+    .card img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: var(--radius) var(--radius) 0 0;
+      background: #222;
+    }
+    /* placeholder while image is missing */
+    .card img.missing {
+      filter: opacity(0.25);
+    }
+
+    .card-label {
+      padding: 8px 10px;
+      font-size: 0.68rem;
+      color: var(--muted);
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Popup ───────────────────────────────────────────── */
+    .popup {
+      display: none;
+      position: absolute;
+      z-index: 100;
+      bottom: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%);
+      min-width: 220px;
+      max-width: 280px;
+      background: var(--popup-bg);
+      border: 1px solid var(--popup-border);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+      pointer-events: none;
+    }
+
+    /* show on hover (unless already pinned) */
+    .card:hover .popup {
+      display: block;
+    }
+
+    /* pinned: always show and allow text selection */
+    .card.pinned .popup {
+      display: block;
+      pointer-events: auto;
+      border-color: var(--accent);
+    }
+
+    .popup::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 6px solid transparent;
+      border-top-color: var(--popup-border);
+    }
+
+    .popup-name {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--accent);
+      margin-bottom: 6px;
+      line-height: 1.2;
+    }
+    .popup-row {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 4px;
+      font-size: 0.7rem;
+      line-height: 1.4;
+    }
+    .popup-row .label {
+      color: var(--muted);
+      flex-shrink: 0;
+      width: 68px;
+      letter-spacing: 0.06em;
+    }
+    .popup-row .value {
+      color: var(--text);
+      word-break: break-word;
+      user-select: text;
+    }
+
+    /* pinned badge */
+    .pin-badge {
+      display: none;
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background: var(--accent);
+      color: #000;
+      font-size: 0.58rem;
+      letter-spacing: 0.08em;
+      padding: 2px 6px;
+      border-radius: 2px;
+      font-weight: 500;
+      pointer-events: none;
+    }
+    .card.pinned .pin-badge { display: block; }
+
+    /* ── Error / Empty states ────────────────────────────── */
+    #message {
+      padding: 80px 48px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      display: none;
+    }
+    #message a { color: var(--accent); }
+
+    /* ── Click-outside hint ──────────────────────────────── */
+    #hint {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      padding: 8px 18px;
+      border-radius: 100px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+    }
+    #hint.visible { opacity: 1; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Image <em>Catalog</em></h1>
+  <span id="item-count"></span>
+</header>
+
+<div id="grid"></div>
+<div id="message"></div>
+<div id="hint">CLICK ANYWHERE TO UNPIN</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════
+   CONFIG — adjust these if your file paths differ
+   ═══════════════════════════════════════════════════════════════ */
+const CSV_PATH    = 'model_cat.csv';   // path to your CSV file
+const IMAGES_DIR  = 'images/';       // folder containing images
+// Image files should be named by the item's ID, e.g. 101.jpg, 102.png
+// Supported extensions (tried in order):
+const IMG_EXTS    = ['jpg', 'jpeg', 'png', 'webp', 'gif', 'svg'];
+/* ═══════════════════════════════════════════════════════════════ */
+
+const grid    = document.getElementById('grid');
+const msgEl   = document.getElementById('message');
+const countEl = document.getElementById('item-count');
+const hint    = document.getElementById('hint');
+
+let pinnedCard = null;
+
+/* ── Parse CSV (handles quoted fields with commas) ─────────── */
+function parseCSV(text) {
+  const lines  = text.trim().split(/\r?\n/);
+  if (lines.length < 2) return [];
+  const headers = splitCSVLine(lines[0]).map(h => h.trim().toLowerCase());
+  return lines.slice(1).map(line => {
+    const vals = splitCSVLine(line);
+    const obj  = {};
+    headers.forEach((h, i) => obj[h] = (vals[i] || '').trim());
+    return obj;
+  });
+}
+
+function splitCSVLine(line) {
+  const result = [];
+  let cur = '', inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (c === '"') {
+      if (inQ && line[i+1] === '"') { cur += '"'; i++; }
+      else inQ = !inQ;
+    } else if (c === ',' && !inQ) {
+      result.push(cur); cur = '';
+    } else {
+      cur += c;
+    }
+  }
+  result.push(cur);
+  return result;
+}
+
+/* ── Find an image by trying multiple extensions ───────────── */
+function findImage(id) {
+  return new Promise(resolve => {
+    let idx = 0;
+    function tryNext() {
+      if (idx >= IMG_EXTS.length) { resolve(null); return; }
+      const src = `${IMAGES_DIR}${id}.${IMG_EXTS[idx++]}`;
+      const img = new Image();
+      img.onload  = () => resolve(src);
+      img.onerror = tryNext;
+      img.src = src;
+    }
+    tryNext();
+  });
+}
+
+/* ── Build a card element ──────────────────────────────────── */
+function buildCard(item, imgSrc) {
+  const card = document.createElement('div');
+  card.className = 'card';
+
+  const img = document.createElement('img');
+  img.alt = item.name || item.id || 'catalog item';
+  if (imgSrc) {
+    img.src = imgSrc;
+  } else {
+    // placeholder SVG
+    img.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23222' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' fill='%23555' font-size='14' font-family='monospace'%3Eno image%3C/text%3E%3C/svg%3E`;
+    img.classList.add('missing');
+  }
+
+  const label = document.createElement('div');
+  label.className = 'card-label';
+  label.textContent = item.id ? `#${item.id}` : '—';
+
+  const badge = document.createElement('div');
+  badge.className = 'pin-badge';
+  badge.textContent = 'PINNED';
+
+  // popup
+  const popup = document.createElement('div');
+  popup.className = 'popup';
+
+  const nameEl = document.createElement('div');
+  nameEl.className = 'popup-name';
+  nameEl.textContent = item.name || '(no name)';
+
+  popup.appendChild(nameEl);
+
+  const fields = [
+    { label: 'ID',       key: 'id' },
+    { label: 'POSITION', key: 'position' },
+    { label: 'DESC',     key: 'description' },
+  ];
+  fields.forEach(({ label: lbl, key }) => {
+    if (!item[key]) return;
+    const row = document.createElement('div');
+    row.className = 'popup-row';
+    row.innerHTML = `<span class="label">${lbl}</span><span class="value"></span>`;
+    row.querySelector('.value').textContent = item[key];
+    popup.appendChild(row);
+  });
+
+  card.appendChild(img);
+  card.appendChild(label);
+  card.appendChild(badge);
+  card.appendChild(popup);
+
+  // ── Interaction ──────────────────────────────────────
+  card.addEventListener('click', e => {
+    e.stopPropagation();
+
+    if (pinnedCard && pinnedCard !== card) {
+      pinnedCard.classList.remove('pinned');
+    }
+
+    if (card.classList.contains('pinned')) {
+      card.classList.remove('pinned');
+      pinnedCard = null;
+      hint.classList.remove('visible');
+    } else {
+      card.classList.add('pinned');
+      pinnedCard = card;
+      hint.classList.add('visible');
+    }
+  });
+
+  return card;
+}
+
+/* ── Click outside unpins ──────────────────────────────────── */
+document.addEventListener('click', () => {
+  if (pinnedCard) {
+    pinnedCard.classList.remove('pinned');
+    pinnedCard = null;
+    hint.classList.remove('visible');
+  }
+});
+
+/* ── Load & render ─────────────────────────────────────────── */
+async function init() {
+  let text;
+  try {
+    const resp = await fetch(CSV_PATH);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    text = await resp.text();
+  } catch (err) {
+    msgEl.style.display = 'block';
+    msgEl.innerHTML = `<p>Could not load <code>${CSV_PATH}</code>.<br>
+      Make sure the file is in the same directory as this page.<br>
+      <small style="color:#666">${err.message}</small></p>`;
+    return;
+  }
+
+  const items = parseCSV(text);
+  if (!items.length) {
+    msgEl.style.display = 'block';
+    msgEl.textContent = 'CSV parsed but no rows found.';
+    return;
+  }
+
+  countEl.textContent = `${items.length} item${items.length !== 1 ? 's' : ''}`;
+
+  // Build cards — resolve images in parallel then insert in order
+  const resolved = await Promise.all(
+    items.map(item => findImage(item.id))
+  );
+
+  items.forEach((item, i) => {
+    grid.appendChild(buildCard(item, resolved[i]));
+  });
+}
+
+init();
+</script>
+</body>
+</html>
